@@ -5,7 +5,7 @@ import math
 from PIL import ImageTk,Image
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
+
 #____________________________________________________________________________
 # creating my main window
 
