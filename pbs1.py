@@ -5,7 +5,6 @@ import math
 from PIL import ImageTk,Image
 import numpy as np
 import matplotlib.pyplot as plt
-
 #____________________________________________________________________________
 # creating my main window
 
@@ -14,7 +13,6 @@ root.title("Nael's PBS App")
 root.geometry("800x400")
 root.iconbitmap("c:/guis/logo.ico")
 #____________________________________________________________________________
-
 # Creating my total function into my total frame
 
 def total ():
@@ -494,7 +492,7 @@ def team  ():
 	team_frame.pack(fill="both",expand=1)
 
 	# Creating my temporary message 
-	message = Label(team_frame,text= "Under construction")
+	message = Label(team_frame,text= "Under construction by the author")
 	message.grid(row=1, column=1,sticky = W,pady=5,padx=5)
 #____________________________________________________________________________
 # Creating my cost function
@@ -503,7 +501,7 @@ def cost ():
 	cost_frame.pack(fill="both",expand=1)
 
 	# Creating my temporary message 
-	message = Label(cost_frame,text= "Under construction")
+	message = Label(cost_frame,text= "Under construction by the author")
 	message.grid(row=1, column=1,sticky = W,pady=5,padx=5)
 #____________________________________________________________________________
 # Creating my Main menu
