@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # creating my main window
 
 root = Tk()
-root.title("Nael's PBS App")
+root.title("My App testing for github")
 root.geometry("800x400")
 root.iconbitmap("c:/guis/logo.ico")
 #____________________________________________________________________________
